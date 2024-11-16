@@ -26,6 +26,11 @@
 #define U_WH_L &msc SCRL_LEFT
 #define U_WH_R &msc SCRL_RIGHT
 
+&lt {
+    flavor = "hold-preferred";
+    quick-tap-ms = <180>;
+};
+
 / {
     chosen {
         zmk,charmap = &charmap_us;
