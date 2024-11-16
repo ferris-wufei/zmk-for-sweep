@@ -62,6 +62,50 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        bac {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <3 14>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <15 5>;
+            timeout-ms = <30>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <11 12>;
+            timeout-ms = <30>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17>;
+            timeout-ms = <30>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <12 13>;
+            timeout-ms = <30>;
+        };
+
+        back {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <17 18>;
+            timeout-ms = <30>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <15 6>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
